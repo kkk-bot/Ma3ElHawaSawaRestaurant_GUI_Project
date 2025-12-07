@@ -1,0 +1,15 @@
+{
+  "name": "saaa",
+  "version": "1.0.0",
+  "description": "Server backend Hawa-Sawa restaurant",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "ISC"
+}
