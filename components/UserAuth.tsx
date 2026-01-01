@@ -90,6 +90,7 @@ export const UserAuth: React.FC<UserAuthProps> = ({
                 </label>
                 <input
                   type="tel"
+                  pattern="[07][0-9]{8}"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                   className="w-full border border-gray-300 rounded p-2 focus:border-primary focus:ring-1 focus:ring-primary outline-none"
